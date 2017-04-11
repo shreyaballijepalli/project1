@@ -1,0 +1,22 @@
+/static StaticR Static appStatic
+/auth   AuthR   Auth   getAuth
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET POST
+
+/comments CommentR POST
+
+/profile ProfileR GET POST
+
+/feedback FeedbackR GET POST
+
+/profile/#Int CheckoldR GET
+
+/function/#Int ChecknewR GET
+
+/newpage NewpageR GET POST
+
+/newpage/#Int/#Text FuncR GET
+

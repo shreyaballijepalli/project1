@@ -1,0 +1,33 @@
+<div .ui.container>
+
+    <h1>
+      Welcome to the banking app!
+
+    <p>
+      This page is protected and access is allowed only for authenticated users.
+   <p>
+      Please enter the details for the transaction!
+      
+      <div .bs-docs-section>
+
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout bs-callout-info well>
+                    <form .form-horizontal method=post action=@{NewpageR}#forms enctype=#{formEnctype}>
+                        ^{formWidget}
+
+                        <button .btn.btn-primary type="submit">
+                            Submit!
+       <p> 
+             Your current user id is: #{show maybeCurrentUserId}
+             $maybe _ <- maybeCurrentUserId
+     <p>
+       Your balance is <strong><span class="useramount">#{userIdent user}</span></strong>!
+             
+<hr>
+   
+    
+  
+            
+
+

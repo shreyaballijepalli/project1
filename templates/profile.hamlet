@@ -1,0 +1,23 @@
+<div .ui.container>
+
+    <h1>
+      Access granted!
+
+    <p>
+      This page is protected and access is allowed only for authenticated users.
+     <p>
+      Please enter the password!
+      
+      <div .bs-docs-section>
+
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout bs-callout-info well>
+                    <form .form-horizontal method=post action=@{ProfileR}#forms enctype=#{formEnctype}>
+                        ^{formWidget}
+
+                        <button .btn.btn-primary type="submit">
+                            Submit!
+
+    <p>
+      Your data is protected with us <strong><span class="username">#{userIdent user}</span></strong>!

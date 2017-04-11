@@ -1,0 +1,41 @@
+<div .ui.container>
+
+    <h1>
+      Please give your feedback
+       <li .list-group-item ##{aDomId}>
+                            If you had javascript enabled then you wouldn't be seeing this.
+   <hr>
+
+    <!-- JSON
+        ================================================== -->
+    <div .bs-docs-section>
+        <div .row>
+            <div .col-lg-12>
+                <div .page-header>
+                    <h1 #json>JSON
+
+                    <p>
+                        Yesod has JSON support baked-in.
+                        The form below makes an AJAX request with Javascript,
+                        then updates the page with your submission.
+                        (see <tt>Handler/Comment.hs</tt>, <tt>templates/feedback.julius</tt>,
+                        and <tt>Handler/Feedback.hs</tt> for the implementation).
+
+        <div .row>
+            <div .col-lg-6>
+                <div .bs-callout.bs-callout-info.well>
+                    <form .form-horizontal ##{commentFormId}>
+                        <div .field>
+                            <textarea rows="2" ##{commentTextareaId} placeholder="Your comment here..." required></textarea>
+
+                        <button .btn.btn-primary type=submit>
+                           Create comment
+
+           <div .col-lg-4.col-lg-offset-1>
+               <div .bs-callout.bs-callout-info>
+                   <small>
+                       Your comments will appear here. You can also open the
+                       console log to see the raw response from the server.
+                   <ul ##{commentListId}>
+
+    <hr>

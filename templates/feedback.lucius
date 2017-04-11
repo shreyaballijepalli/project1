@@ -1,0 +1,10 @@
+h2##{aDomId} {
+    color: #990
+}
+
+
+##{commentTextareaId} {
+    width: 400px;
+    height: 100px;
+}
+
